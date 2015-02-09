@@ -1,0 +1,44 @@
+Part 1 - REST Headers
+
+ETag	"-roYZe-KGC8fMhY8_FAC-zdHGwU/5VfzN_G5FWiQfA5GRjz5_6M9KQk"
+Description:Entity validation based on the conditional request stated above by the client.
+
+Content-Length	28656
+Description: There are 28656 octets in the entity-body.
+
+#status#	HTTP/1.1 200 OK
+Description: Notifies browser of http status for the request
+
+X-XSS-Protection	1; mode=block
+Description: Allows browser to toggle Xss filter which may prevent xss attacks
+. In this case it is on.
+
+Expires	Wed, 04 Feb 2015 23:27:15 GMT
+Description: Expiration time of an entity
+
+Alternate-Protocol	443:quic,p=0.02
+Description: Indicates whether or not the server supports SPDY (open port protocol for transporting web content)
+
+Server	GSE
+Description: Indicates a Google specific server .
+
+X-Content-Type-Options	nosniff
+Description:
+
+Cache-Control	private, max-age=0, must-revalidate, no-transform
+Description: If cache is stale, it must be validated again. If it is within threshold (0 in this case), it may be reused 
+
+X-Frame-Options	SAMEORIGIN
+Description:The page can only be displayed in a frame on the same origin as the page itself.
+
+Vary	Origin
+Description: notifies CDN that the response was negotiated based on the origin header.
+
+Vary	X-Origin
+Description:indicates cross origin http requests. Resources may exist on different domains and come together to complete our request.
+
+Date	Wed, 04 Feb 2015 23:27:15 GMT
+Description: Date that the request was processed
+
+Content-Type	application/json; charset=UTF-8
+Description: Literal type of content, in this case it uses json written in UTF-8 character set

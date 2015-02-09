@@ -1,0 +1,31 @@
+Part 2 - SOAP Endpoint
+
+X-AspNet-Version	4.0.30319
+Description: IDs version 4.0.30319 of ASP.NET
+
+Vary	Accept-Encoding
+Description:
+
+Date	Wed, 04 Feb 2015 23:40:32 GMT
+Description: Request date Wed, 04 Feb 2015 23:40:32 GMT
+
+Content-Length	404
+Description: 404 octet entity length
+
+Content-Encoding	gzip
+Description: content encoded using gzip type (compressed).
+
+Content-Type	text/xml; charset=utf-8
+Description: content xml text using utf-8 character set
+
+#status#	HTTP/1.1 200 OK
+Description: Client should continue with request
+
+Server	Microsoft-IIS/7.0
+Description: server uses InformationStore 7.0
+
+X-Powered-By	ASP.NET
+Description: uses ASP.NET
+
+Cache-Control	private, max-age=0
+Description: Indicates response message for one user and shouldn't be be cached by a shared cache
